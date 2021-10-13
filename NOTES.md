@@ -8,7 +8,7 @@ npm i @cucumber/cucumber --save-dev
 - ✅ Create the feature for when gh is installed
   - ✅ create the features directory
   - ✅ create the package.feature
-  - Define the Given, When, Then
+  - ✅ Define the Given, When, Then
 - Create the step definition for when gh is installed
   - create the features/step_definitions directory
   - create the package_steps.js
