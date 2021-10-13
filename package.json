@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "start:dev": "nodemon app.js",
+    "bdd": "cucumber-js || true",
+    "bdd:watch": "nodemon --quiet --ext js --watch ./ --exec npm run bdd --delay 2",
     "test": "jest --verbose",
     "test:watch": "jest --watchAll --verbose",
     "lint": "eslint --cache --fix",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^11.0.0",
+    "@cucumber/cucumber": "^7.3.1",
     "@types/eslint": "^7.2.0",
     "@types/eslint-plugin-prettier": "^3.1.0",
     "@types/jest": "^26.0.0",
