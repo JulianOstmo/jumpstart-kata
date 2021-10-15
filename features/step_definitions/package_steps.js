@@ -9,7 +9,7 @@ const runFile = async (file) => execFile(file);
 
 Given('gh is installed', async () => {});
 
-When('jumpstart() is called', async () => {
+When('jumpstart function is called', async () => {
   this.actualAnswer = jumpstart();
 });
 
