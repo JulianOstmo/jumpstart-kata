@@ -4,7 +4,7 @@ Feature: Check that packages are installed
     Scenario: Check that gh is installed within the jumpstart function
     Given gh is installed
     When jumpstart function is called
-    Then return 0
+    Then return true
 
     Scenario: Check that gh is installed within the jumpstart script
     Given gh is installed

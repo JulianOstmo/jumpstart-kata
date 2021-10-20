@@ -2,8 +2,7 @@ const assert = require('assert');
 const { Given, When, Then } = require('@cucumber/cucumber');
 const util = require('util');
 const execFile = util.promisify(require('child_process').execFile);
-
-const SUCCESS = 0;
+const { jumpstart } = require('../../src/index');
 
 const runFile = async (file) => execFile(file);
 
@@ -18,6 +17,6 @@ When('jumpstart --check-only is called', async () => {
   this.actualAnswer = result.stdout;
 });
 
-Then('return 0', async () => {
-  assert(this.actualAnswer, SUCCESS);
+Then('return true', async () => {
+  assert(this.actualAnswer, true);
 });
