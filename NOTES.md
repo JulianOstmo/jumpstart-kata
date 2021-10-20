@@ -30,8 +30,15 @@ npm i @cucumber/cucumber --save-dev
 ## Pomdoro 2
 
 - ✅ TDD approach for when gh is installed, jumpstart() returns true
-- 🚧 update BDD test to pass
+- ✅ update BDD test to pass
+- 🚧 Create a wrapper script to check that gh is installed
 - Create the function to assert that gh is installed locally
-- Create a wrapper script to check that gh is installed
+- Create the feature for when gh is not installed
+- Create the step definition for when gh is not installed
+
+## Pomodoro 3
+
+- ✅ Create a wrapper script to check that gh is installed
+- Create the function to assert that gh is installed locally
 - Create the feature for when gh is not installed
 - Create the step definition for when gh is not installed

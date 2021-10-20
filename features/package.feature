@@ -9,4 +9,4 @@ Feature: Check that packages are installed
     Scenario: Check that gh is installed within the jumpstart script
     Given gh is installed
     When jumpstart --check-only is called
-    Then return 0
+    Then no error is thrown

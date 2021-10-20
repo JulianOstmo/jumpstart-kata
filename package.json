@@ -16,6 +16,7 @@
   "author": "Julian Ostmo <Julian.Ostmo@hotmail.com>",
   "license": "ISC",
   "dependencies": {
+    "commander": "^8.2.0",
     "config": "^3.3.6",
     "express": "^4.17.1",
     "swagger-ui-express": "^4.1.6"
