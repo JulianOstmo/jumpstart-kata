@@ -1,7 +1,5 @@
-const temp = () => {
-  return true;
-};
+const jumpstart = () => true;
 
 module.exports = {
-  temp,
+  jumpstart,
 };
