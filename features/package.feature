@@ -10,3 +10,9 @@ Feature: Check that packages are installed
     Given gh is installed
     When jumpstart --check-only is called
     Then no error is thrown
+
+    Scenario: Check that gh is not installed within the jumpstart function
+    Given gh is not installed
+    When jumpstart is called
+    Then return false
+

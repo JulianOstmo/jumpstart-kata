@@ -3,11 +3,17 @@
 const cli = require('commander');
 const { jumpstart } = require('./index');
 
-cli
-  .name('jumpstart')
-  .option('--check-only')
-  .action(() => {
-    jumpstart();
-  });
+function main() {
+  cli
+    .name('jumpstart')
+    .option('--check-only')
+    .action((name, options) => {
+      jumpstart(options);
+    //   console.error("test")
+    });
+  cli.parse(process.argv);
+}
 
-cli.parse(process.argv);
+main();
+
+module.exports = { main };

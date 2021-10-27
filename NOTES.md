@@ -42,3 +42,17 @@ npm i @cucumber/cucumber --save-dev
 - Create the function to assert that gh is installed locally
 - Create the feature for when gh is not installed
 - Create the step definition for when gh is not installed
+
+## Pomodoro 4
+
+- ✅ Create the feature for when gh is not installed
+- Create the step definition for when gh is not installed
+- Refactor when for script is called
+
+## Pomodoro 5
+- package_steps.js:
+  - ✅ clean it up
+  - ✅ fix: When('jumpstart --check-only is called
+    - ✅ add dummy implementation of flag being received
+- Create: Unit test - should return false if GH is not installed
+- 
